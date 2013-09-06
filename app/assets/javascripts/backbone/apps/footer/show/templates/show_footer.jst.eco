@@ -1,1 +1,5 @@
-I am the footer! Hola!
+<div id="footer">
+	<div class="container">
+		<p class="muted">Demo Footer</p>
+	</div>
+</div>
