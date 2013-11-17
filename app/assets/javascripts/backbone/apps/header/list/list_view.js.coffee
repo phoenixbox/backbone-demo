@@ -1,6 +1,4 @@
 @Demo.module "HeaderApp.List", (List, App, Backbone, Marionette, $, _) ->
 
-	List.Controller =
-
-		listHeader: ->
-			console.log("Hey there header")
+	class List.Header extends Marionette.ItemView
+		template: "header/list/templates/list_header"
