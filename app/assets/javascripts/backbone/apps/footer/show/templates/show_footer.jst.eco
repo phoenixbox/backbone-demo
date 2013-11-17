@@ -1,3 +1,4 @@
+<% console.log @ %>
 <div id="footer">
 	<div class="container">
 		<p class="muted">BackBoneRails Demo Application - <%= @full_name %></p>
