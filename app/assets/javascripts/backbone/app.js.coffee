@@ -11,6 +11,8 @@
 		App.module("HeaderApp").start()
 		App.module("FooterApp").start()
 
+		# Calling start lets us listen to a start event in the module_app.js.coffee
+
 	App.on "initialize:after", ->
 		if Backbone.history
 			Backbone.history.start()
