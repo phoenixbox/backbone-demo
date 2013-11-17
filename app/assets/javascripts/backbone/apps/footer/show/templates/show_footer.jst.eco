@@ -1,5 +1,8 @@
-<div id="footer">
-	<div class="container">
-		<p class="muted">BackBoneRails Demo Application</p>
+<% if @currentUser.is_admin: %>
+	<% console.log @ %>
+	<div id="footer">
+		<div class="container">
+			<p class="muted">BackBoneRails Demo Application - <%= @full_name %></p>
+		</div>
 	</div>
-</div>
+<% end %>
