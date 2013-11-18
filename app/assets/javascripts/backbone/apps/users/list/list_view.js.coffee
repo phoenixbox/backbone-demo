@@ -2,3 +2,13 @@
 
 	class List.Layout extends App.Views.Layout
 		template: "users/list/templates/list_layout"
+
+		regions:
+			panelRegion: "#panel-region"
+			usersRegion: "#users-region"
+
+	class List.Panel extends App.Views.ItemView
+		template: "users/list/templates/_panel"
+
+	class List.Users extends App.Views.ItemView
+		template: "users/list/templates/_users"
