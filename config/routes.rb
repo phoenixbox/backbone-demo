@@ -2,6 +2,7 @@ BackboneDemo::Application.routes.draw do
   root to: "application#index"
 
   resources :users
+  resources :leads, :only => [:index]
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
