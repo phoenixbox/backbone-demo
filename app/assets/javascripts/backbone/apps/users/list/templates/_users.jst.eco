@@ -1,1 +1,9 @@
-users view
+<table class='table table-striped table-bordered'>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Created</th>
+		</tr>
+	</thead>
+	<tbody></tbody>
+</table>

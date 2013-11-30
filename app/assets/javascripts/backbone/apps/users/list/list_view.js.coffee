@@ -10,5 +10,11 @@
 	class List.Panel extends App.Views.ItemView
 		template: "users/list/templates/_panel"
 
-	class List.Users extends App.Views.ItemView
+	class List.User extends App.Views.ItemView
+		template: "users/list/templates/_user"
+		tagName: 'tr'
+
+	class List.Users extends App.Views.CompositeView
 		template: "users/list/templates/_users"
+		itemView: List.User
+		itemViewContainer: "tbody"
